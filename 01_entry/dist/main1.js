@@ -81,32 +81,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/main.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/app.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/main.js":
-/*!*********************!*\
-  !*** ./src/main.js ***!
-  \*********************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./src/app.js":
+/*!********************!*\
+  !*** ./src/app.js ***!
+  \********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mathUtils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mathUtils */ \"./src/mathUtils.js\");\n\r\n\r\nlet total = Object(_mathUtils__WEBPACK_IMPORTED_MODULE_0__[\"sum\"])( 1, 2 );\r\n\r\ndocument.write('计算结果是：' + total );\r\n\n\n//# sourceURL=webpack:///./src/main.js?");
-
-/***/ }),
-
-/***/ "./src/mathUtils.js":
-/*!**************************!*\
-  !*** ./src/mathUtils.js ***!
-  \**************************/
-/*! exports provided: sum */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"sum\", function() { return sum; });\nfunction sum(num1, num2){\r\n    return num1 + num2\r\n}\n\n//# sourceURL=webpack:///./src/mathUtils.js?");
+eval("document.write('我是app.js的内容');\n\n//# sourceURL=webpack:///./src/app.js?");
 
 /***/ })
 
