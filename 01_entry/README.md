@@ -1,4 +1,4 @@
-# webpack核心概念（一） --- entry入口
+# webpack核心概念（一） --- entry入口和output出口
 
 ## 未配置webpack.config.js
 
